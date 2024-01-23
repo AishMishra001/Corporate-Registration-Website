@@ -45,7 +45,7 @@
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 .mainheading h1{  animation: moveUp 4s ease-out ;
-
+  
   z-index: 1 ;
   text-shadow: 10px 10px  30px  black;
   
@@ -75,12 +75,12 @@
 
 @keyframes moveUp {
   from {
-      transform: translateY(50px);
-      opacity: 0;
+    transform: translateY(50px);
+    opacity: 0;
   }
   to {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
@@ -166,8 +166,50 @@
 }
 .register{
   font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: black;
 }
 .login{
+  text-decoration: none;
+  color: black;
   font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  
+}
+.login:hover{
+  background-color: rgb(72, 72, 245);
+}
+.register:hover{
+  background-color: rgb(72, 72, 245);
+}
 
+.lowerPart{
+  height: 80%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.button{
+  margin: 22px 50px;
+  padding: 15px 50px;
+  border: none;
+  box-shadow: 0px 0px 3px 0px black;
+  font-size: 17px;
+}
+
+#lastbutton{
+  margin: auto;
+  padding: 10px 60px;
+  border-radius: 10px;
+  background-color: rgb(81, 81, 246);
+  color: white;
+  /* box-shadow: 0px 0px 3px 1px black; */
 }
