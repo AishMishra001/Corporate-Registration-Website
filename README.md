@@ -12,8 +12,8 @@ This project is a corporate registration website that allows users to register a
 - Industry Insights
 - Event Participation
 
-## Screenshots
-Include screenshots or GIFs of your project to provide a visual representation.
+## Screenshot 
+  ![Foldered Screenshot](homepage.png)
 
 ## Technologies Used
 - HTML
